@@ -6,3 +6,8 @@ NUM2=Amrutha
 SUM=$(($NUM1+$NUM2))
 
 echo "Sum is: $SUM"
+
+#Array
+FRUITS=("Apple" "Orange" "Kiwi")
+
+echo "fruits are: ${FRUITS[@]}"
